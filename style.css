@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(/Lato/Lato-Black.ttf);
+    src: url(/Lato/Lato-BlackItalic.ttf);
+    src: url(/Lato/Lato-Bold.ttf);
+    src: url(/Lato/Lato-BoldItalic.ttf);
+    src: url(/Lato/Lato-Italic.ttf);
+    src: url(/Lato/Lato-Regular.ttf);
+    src: url(/Lato/Lato-Thin.ttf);
+
+}
+
+
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-y: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.LogoBar {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    padding-top: 0.5em;
+    height: 35px;
+}
+
+.MainContainer {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.ProfileSideBar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid transparent;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3.5em;
+}
+
+.ProfileImage {
+    width: 125px;
+    height: 125px;
+}
+
+.CurrentStatus {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 20px;
+}
+
+.Status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 0.5em;
+}
+
+.Settings {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.SettingsBTN {
+    display: flex;
+    flex-direction: row;
+}
+
+.Logout {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+.Icons {
+    width: 25x;
+    height: 25px;
+    align-self: center;
+    justify-self: center;
+    margin-right: 0.5em;
+}
+
+.Hero_Section {
+    height: 100%;
+    width: 85%;
+    background-color: rgb(226, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dashboard {
+    height: 95%;
+    width: 95%;
+    border: transparent;
+    border-radius: 30px;
+    position: relative;
+}
+
+.BackgroundIMG {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+#DeveloperName {
+    position: absolute;
+    z-index: 1;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.actionBTN {
+    z-index: 1;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: rgb(241, 158, 4);
+    font-weight: bold;
+}
+
+#icon {
+    height: 10px;
+    width: auto;
+    padding-left: 0.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+
+.ProjectHeadliner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ProjectDescription {
+    padding: 3.5em;
+    border-right: 1px solid transparent;
+    font-size: 1em;
+}
+
+
+.ProjectDate {
+    padding: 4em;
+    border-right: 1px solid transparent;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+#PostTicket {
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    height: 60px;
+    padding: 0.5em 0;
+    border-radius: 20px;
+    background-color: rgb(0, 170, 255);
+    color: white;
+    font-size: 20px;
+}
+
+.TicketGroup {
+    display: flex;
+    margin-left: 2em;
+    margin-top: 5em;
+    font-weight: bolder;
+}
+
+.TicketGroup img {
+    padding: 0;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    height: 25px;
+}
+
+.TicketLine {
+    display: flex;
+    justify-content: space-around;
+}
+
+.TicketsContainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.TicketGrid {
+width: 300px;
+border-radius: 5%;
+margin: auto;
+padding: 20px;
+text-align: center;
+}
+
+.TicketGrid img {
+    display: block;
+    padding: 0;
+    margin: auto;
+}
